@@ -3,6 +3,7 @@
   "version": "1.0.7",
   "bin": "./bin/cli.js",
   "license": "MIT",
+  "homepage":" https://tamirs2702.github.io/Pplfinder-react/",
   "repository": "https://github.com/powerlink/PplFinder",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
@@ -26,7 +27,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
